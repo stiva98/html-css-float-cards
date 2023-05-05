@@ -10,7 +10,7 @@ RESET
 /*
 GENERALE
 */
-body{
+*{
     font-family: 'Fredoka', sans-serif ;
     
 }
@@ -24,25 +24,50 @@ h1{
     text-align: center;
     padding-bottom: 30px;
 }
-p{
+.text{
     text-align: center;
     padding-bottom: 30px;
 }
 
-.columns{
-    float: left;
-    width: calc(100% / 6);
-}
-
 .bg-black{
     background-color: black;
-    width: 250px;
+    width: calc((100% / 3) - 20px);
     height: 80px;
+    margin: 20px;
+    border: 5px solid red;
+    
 }
-.single-column{
+
+.columns{
     float: left;
+    
 }
+
 .img{
     width: 80px;
     height: 80px;
+    float:left;
+}
+div h2{
+    font-size: 1.2em;
+}
+div p{
+    text-align: left;
+    padding-bottom: 0;
+}
+.white{
+    color: white;  
+}
+.skyblue{
+    color: #5bcadd;
+}
+.block-text{
+    float:left;
+    padding: 10px;
+
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
