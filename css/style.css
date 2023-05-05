@@ -7,3 +7,42 @@ RESET
     padding: 0;
     box-sizing: border-box;
 }
+/*
+GENERALE
+*/
+body{
+    font-family: 'Fredoka', sans-serif ;
+    
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    color: #e53170;
+    text-align: center;
+    padding-bottom: 30px;
+}
+p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.columns{
+    float: left;
+    width: calc(100% / 6);
+}
+
+.bg-black{
+    background-color: black;
+    width: 250px;
+    height: 80px;
+}
+.single-column{
+    float: left;
+}
+.img{
+    width: 80px;
+    height: 80px;
+}
